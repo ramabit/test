@@ -23,4 +23,10 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
+
+    testCompile 'de.ad:lint-junit-rule:0.3.0'
+
+    //optional
+    testCompile 'de.ad:lint-assertj:0.3.0'
+    testCompile 'de.ad:lint-hamcrest:0.3.0'
 }

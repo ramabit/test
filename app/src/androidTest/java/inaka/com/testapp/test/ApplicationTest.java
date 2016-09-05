@@ -1,4 +1,4 @@
-package inaka.com.testapp;
+package inaka.com.testapp.test;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
